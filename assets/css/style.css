@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.header-aria{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+    align-items: center;
+}
+.left-arrow{
+    background: #F8F8F8;
+    width: 62px;
+    padding: 12px 19px;
+    border-radius: 99px;
+}
+h3{
+    font-size: 16px;
+    margin-left: 19px;
+}
+
+.progress{
+    background: rgb(85 82 217 / 18%);
+    font-size: 12px;
+    margin: 9px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #6F6FFF;
+}
+.border{
+    border-bottom:1px solid #ECEEEB;
+    margin-top: 24px;
+}
+.list-item{
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align: top;
+}
+.contain{
+    padding-left: 113px;
+}
+form{
+    width: 410px;
+}
+.form-aria{
+    display:inline-block;
+    margin-top: 48px;
+    margin-left: 73px;
+}
+input,select{
+    width: 410px;
+    padding: 5px 16px;
+    border: 1px solid #757D8A;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: #757D8A;
+}
+select{
+    margin-bottom: 32px;
+}
+label{
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+.Continue-button{
+    background: #4A3AFF;
+    color: #ffffff;
+}
+.C-button{
+    position: relative;
+    margin-top: 16px;
+}
+.button-icon{
+    position: absolute;
+    top: 22px;
+    right: 160px;
+}
+li{
+    margin-top: 36px;
+    font-size: 30px;
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+a.ul-list{
+    margin-left: 38px;
+    color: #737373;
+    margin-top: 6px;
+}
+li::before{
+    content: "";
+    position: absolute;
+    background-color: #D9D9D9;
+    width: 33px;
+    height: 100px;
+    left: 75px;
+    border-radius: 50px;
+    z-index: -1;
+}
+ul{
+    list-style-type: disc;
+    
+}
+.list-color::after{
+    width: 26px;
+    height: 26px;
+    background-color: #4A3AFF;
+}
