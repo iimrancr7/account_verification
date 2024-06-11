@@ -18,12 +18,12 @@
             <div class="border"></div>  
             <div class="contain">
                 <div class="list-item list-asid">
-                   <ol>
+                   <ol><span class="check-icon"><img class="business-check" src="assets/icon/Indicator.png" alt="complete"></span>
                         <li class="li-color">
                             <a href="">Business structure</a>
                             <ul>
-                                <li class="style-dot">
-                                    <a class="ul-list" href="">Business representative</a>
+                                <li class="style-dot blue">
+                                    <a class="ul-list blue" href="">Business representative</a>
                                 </li>
                                 <li class="style-dot">
                                     <a class="ul-list" href="">Business details</a>
@@ -39,19 +39,16 @@
                 </div>
                 <div class="form-aria">
                     <form action="">
-                        <div class="select-div">
-                            <label for="address">Business address</label><br>
-                                <select class="select-contein" name="Registered business address" id="">
-                                    <option value="Registered business address">Registered business address</option>
-                                    <option value="Registered business address">address line 2</option>
-                                <option value="Registered business address">address line 3</option><br>
-                            </select><br>
-                            <label for="Type">Type</label><br>
-                            <select class="select-contein" name="Type" id="">
-                                <option value="Type">Type</option>
-                                <option value="Type">Type 2</option>
-                                <option value="Type">Type 3</option>
-                            </select><br>
+                        <div class="input-div">
+                            <div class="f-name">
+                                <label for="name">Name</label><br>
+                                    <input class="First-name" type="text" placeholder="First name">
+                                <input class="First-name" type="text" placeholder="Last name"><br>
+                            </div>
+                            <div class="your-email">
+                                <label for="email">Email</label><br>
+                                <input type="email" placeholder="Your email">
+                            </div>
                         </div>
                         <div class="div-contein">
                             <label for="Address">Address</label><br>
@@ -59,6 +56,10 @@
                             <input type="text" placeholder="Address line 2"><br>
                             <input type="text" placeholder="City"><br>
                             <input type="text" placeholder="Zip"><br>
+                        </div>
+                        <div class="phone">
+                            <label for="phome">Phone</label><br>
+                            <input type="tel" placeholder="+1 (555) 000-0000" pattern="[0-9]{3}[0-9]{2}[0-9]{3}>">
                         </div>
                         <div class="C-button">
                             <input class="Continue-button" type="submit" value="Continue">
