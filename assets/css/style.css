@@ -167,6 +167,13 @@ ol::before {
     width: 27px;
     height: 27px;
 }
+.green::before{
+    background: #4ADE80;
+    color: #ffffff;
+}
+.green{
+    color: #B9B9B9;
+}
 .blue::before{
     background: #4A3AFF;
 }
@@ -176,6 +183,36 @@ ol::before {
 .First-name{
     width: 201px;
 }
-.f-name,.your-email,.div-contein,.phone,.website{
+.your-email,.div-contein{
     padding-bottom: 32px;
+}
+.address,.phone,.website,.iban,.f-name{
+    padding-bottom: 16px;
+}
+.secure{
+    box-shadow: 0 1px 25px #00000015;
+}
+/* Overview */
+.missing{
+    display: flex;
+    width: 410px;
+    border: 1px solid #EF4444;
+    border-radius: 8px;
+    background: rgba(239, 68, 68, 0.085);
+    justify-content: space-between;
+    padding: 17px 16px;
+}
+.missing p{
+    color: #EF4444;
+
+}
+.add-button{
+    background: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 5px;
+}
+.missing{
+    margin-top: 16px;
 }

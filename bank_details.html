@@ -3,7 +3,7 @@
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <title>Bank details</title>
+        <title>account_verification</title>
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
@@ -25,13 +25,13 @@
                                 <li class="style-dot green">
                                     <a class="ul-list green" href="">Business representative</a>
                                 </li>
-                                <li class="style-dot blue">
-                                    <a class="ul-list blue" href="">Business details</a>
+                                <li class="style-dot green">
+                                    <a class="ul-list green" href="">Business details</a>
                                 </li>
                             </ul>
                         </li>
                         
-                            <li><a href="">Bank details</a></li>
+                            <li class="li-color"><a href="">Bank details</a></li>
                             <li><a href="">2 step authentication</a></li>
                             <li class="li-last"><a href="">Overview</a></li>
                     </ol>
@@ -46,16 +46,28 @@
                             </div>
                         </div>
                         <div class="div-contein">
-                            <label for="Address">Industry</label><br>
+                            <label for="Address">Currency</label><br>
                             <select name="" id="">
-                                <option value="" >Please select your industry...</option>
-                                <option value="" >Please select your industry...</option>
-                                <option value="" >Please select your industry...</option>
+                                <option value="" >Select your currency...</option>
+                                <option value="" >BDT</option>
+                                <option value="" >EUR</option>
+                                <option value="" >USD</option>
                             </select>
                         </div>
                         <div class="website">
-                            <label for="website">Organization website</label><br>
-                            <input type="text" placeholder="www.example.com">
+                            <label for="cuntry">Country of bank account</label><br>
+                            <select name="" id="">
+                                <option value="" >Country</option>
+                                <option value="" >Bangladesh</option>
+                                <option value="" >Austria</option>
+                                <option value="" >India</option>
+                                <option value="" >USA</option>
+                            </select>
+                        </div>
+                        <div class="iban">
+                            <label for="iban">IBAN</label>
+                            <input type="text" placeholder="Enter your IBAN"><br>
+                            <input type="text" placeholder="Confirm IBAN">
                         </div>
                         <div class="C-button">
                             <input class="Continue-button" type="submit" value="Continue">
