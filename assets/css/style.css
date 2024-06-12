@@ -36,6 +36,7 @@ h3{
     display: inline-block;
     margin-top: 40px;
     vertical-align: top;
+    min-width: 240px;
 }
 .contain{
     padding-left: 113px;
@@ -44,12 +45,13 @@ form{
     width: 410px;
 }
 .form-aria{
+    max-width: 410px;
     display:inline-block;
     margin-top: 48px;
     margin-left: 73px;
 }
 input,select{
-    width: 410px;
+    width: 100%;
     padding: 5px 16px;
     border: 1px solid #E1E3E6;
     border-radius: 8px;
@@ -79,11 +81,7 @@ label{
     position: relative;
     margin-bottom: 25px;
 }
-.button-icon{
-    position: absolute;
-    top: 21px;
-    right: 160px;
-}
+
 a{
     text-decoration: none;
     padding-left: 20px;
